@@ -1,0 +1,17 @@
+.img-gallery {
+  width: 100%;
+  display: block;
+  border-radius: 5%;
+}
+
+.gallery-item {
+  display: flex;
+  width: calc((100% - 6 * 15px) / 3);
+  margin: 15px;
+}
+
+#gallery {
+  padding-top: 100px;
+  display: flex;
+  margin: -15px;
+}
